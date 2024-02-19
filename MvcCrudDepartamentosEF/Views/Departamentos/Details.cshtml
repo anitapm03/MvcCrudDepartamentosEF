@@ -1,0 +1,17 @@
+﻿@model Departamento
+
+<h1 style="color: green">
+    Detalles
+</h1>
+
+<br />
+
+<h2>@Model.IdDepartamento, @Model.Nombre</h2>
+<h3>Localidad: @Model.Loc</h3>
+
+<br />
+
+<a asp-controller="Departamentos"
+asp-action="Index" class="btn btn-outline-info">
+    Volver
+</a>

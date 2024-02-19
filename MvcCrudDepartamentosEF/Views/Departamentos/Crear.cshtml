@@ -1,0 +1,23 @@
+﻿@model Departamento
+
+<h1 style="color:green">
+    Crear departamento
+</h1>
+
+<a asp-controller="Departamentos"
+   asp-action="Index" class="btn btn-outline-info">
+    Volver
+</a>
+
+<form method="post">
+    <label>ID:</label>
+    <input type="number" name="iddepartamento" class="form-control" />
+    <br />
+    <label>Nombre:</label>
+    <input type="text" name="nombre" class="form-control" />
+    <br />
+    <label>Localidad:</label>
+    <input type="text" name="loc" class="form-control" />
+    <br />
+    <button class="btn btn-success">Crear!</button>
+</form>
